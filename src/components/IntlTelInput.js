@@ -508,7 +508,7 @@ class IntlTelInput extends Component {
     // NOTE: if tempCountry is set to auto, that will be handled separately
     // format
     if (val) {
-      this.updateValFromNumber(val, this.props.formatOnInit, doNotify);
+      this.updateValFromNumber(val, this.props.formatOnInit, false);
     }
   };
 
